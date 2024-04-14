@@ -69,7 +69,7 @@ contract Escrow {
      */
     function list(
         uint256 nftID,
-        address buyer,
+        address buyerAddress,
         uint256 price,
         uint256 escrow
     ) public payable onlySeller {
@@ -77,7 +77,7 @@ contract Escrow {
         isListed[nftID] = true;
         purchasePrice[nftID] = price;
         escrowAmount[nftID] = escrow;
-        buyer[nftID] = buyer;
+        buyer[nftID] = buyerAddress;
     }
 
     /**
