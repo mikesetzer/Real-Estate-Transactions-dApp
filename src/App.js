@@ -6,6 +6,7 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import Navigation from './components/Navigation';
 import Search from './components/Search';
 import Home from './components/Home';
+import Footer from './components/Footer';
 
 // ABIs
 import RealEstate from './abis/RealEstate.json';
@@ -73,7 +74,7 @@ function App() {
   };
 
   return (
-    <Container fluid>
+    <Container fluid className="d-flex flex-column min-vh-100 px-0">
       <Navigation account={account} setAccount={setAccount} />
       <Search />
 
@@ -105,6 +106,7 @@ function App() {
       {toggle && (
         <Home home={home} provider={provider} account={account} escrow={escrow} togglePop={togglePop} />
       )}
+      <Footer />
     </Container>
   );
 }

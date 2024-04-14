@@ -6,7 +6,7 @@ const Search = () => {
         <header style={{ display: 'flex', alignItems: 'center' }}>
             <Container>
                 <Row className="justify-content-center">
-                    <Col md={8} lg={6} className="d-flex flex-column justify-content-center">
+                    <Col md={8} lg={6} className="d-flex flex-column justify-content-center bg-brand text-white p-3 rounded">
                         <h2 className="text-center mb-3">Find a Property</h2>
                         <Form>
                             <Form.Group controlId="searchQuery">
