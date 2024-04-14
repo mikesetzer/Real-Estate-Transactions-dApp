@@ -1,0 +1,14 @@
+Tools Used:
+
+Node - Infrastructure
+React - Frontend
+Bootstrap - Frontend Framework
+Solidity - Smart contract language
+Hardhat - Creating and deploying smart contracts. Testing framework.
+EthersJS - Talking to smart contracts from Javascript
+OpenZeppelin - Creating NFTs
+
+Notes:
+
+* Do not want to use gasprice to keep the fee structure of the network predictable. Gas prices could vary between transactions and network load.
+* Current system allows for approvals from buyer, seller, inspector, and lender, but more approvals can be added if needed, or regulator reporting could be included.
