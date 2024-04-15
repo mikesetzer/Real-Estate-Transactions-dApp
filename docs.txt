@@ -1,10 +1,10 @@
 Tools Used:
 
-Node - Infrastructure
-React - Frontend
-Bootstrap - Frontend Framework
 Solidity - Smart contract language
+React - Frontend
 Hardhat - Creating and deploying smart contracts. Testing framework.
+Bootstrap - Frontend Framework
+Node - Infrastructure
 EthersJS - Talking to smart contracts from Javascript
 OpenZeppelin - Creating NFTs
 
